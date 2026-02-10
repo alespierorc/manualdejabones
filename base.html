@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accede Ahora</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .landing-container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px 30px;
+      border-radius: 15px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .btn {
+      background-color: #ff5a5f;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #e04848;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="landing-container">
+    <h1>¡Accede Ahora!</h1>
+    <p>Haz clic en el botón de abajo para ir a nuestra página de pago segura y obtener acceso inmediato.</p>
+    <a href="https://pay.hotmart.com/I104328837O?checkoutMode=10" class="btn" target="_blank">Comprar Ahora</a>
+  </div>
+</body>
+</html>
